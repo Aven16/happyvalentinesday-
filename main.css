@@ -1,0 +1,124 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.greeting-container{
+    background-color: rgb(251, 88, 115);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.img-container{
+    margin: auto;
+    width: fit-content;
+   
+    text-align: center;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+#label{
+
+    margin: 0 auto;
+}
+img{
+    width: 300px;
+    height: auto;
+border-radius: 20px;
+ 
+    
+}
+
+p{
+    color: grey;
+    text-align: center;
+    font-size: 11px;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(255, 142, 161);
+}
+hr{
+    color: pink;
+    width: 150px;
+}
+
+.title {
+text-align: left;
+width: 50%;
+}
+
+
+.logo{
+    margin-right: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.452);
+    padding-right: 7px;
+}
+.logo i{
+  
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+.option{
+  display: flex;
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  justify-content: space-around;
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  border-radius: 20px;
+  margin: auto;
+  height: 60px;
+  align-items: center;
+  margin-bottom: 20px;
+background-color:rgb(251, 88, 115);
+    
+  
+  
+
+}
+
+#message{
+    color: rgb(251, 88, 115);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+   text-decoration: none;
+    background-color: rgb(251, 88, 115);
+        
+        color: white;
+        font-weight: bold;
+       
+}
+.option-container{
+    margin-top: 10%;
+}
+.a :hover{
+   
+    transition: .5s;
+    transform: scale(1.1);
+
+}
+
+.message-container{
+    border: 1px solid pink;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 325px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.message-container i{
+    color:rgb(251, 88, 115);
+}
